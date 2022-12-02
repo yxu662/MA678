@@ -1,0 +1,77 @@
+---
+title: "MA678 Final Project"
+author: "Yin Xu"
+date: "2022-11-30"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(ggplot2)
+library(lme4)
+library(Matrix)
+library(pbkrtest)
+```
+
+## Abstract
+In most universities, AI, Statistics and Data Science are some of the most popular majors, plenty of students choose these majors since if they have the AI/ML and Big Data background, they may find jobs easily after university. According to this point, there is a dataset from ai-jobs shows that the titles, locations and other variables which effect the salaries. The report includes 4 main parts: introduction, method, result and discussion.
+
+## Introduction
+As we always know, the job titles, locations of companies, salary currency and other factors influence the amount of a person's salary. However, after COVID-19 came into everyone's life, some of jobs became remote to avoid direct contact, therefore, remote jobs may become one factor which influence the salaries. Besides, some
+
+
+```{r}
+salaries_all <- read.csv("salaries.csv")
+salaries <- subset(salaries_all, work_year == 2022)
+salaries_ft <- subset(salaries, employment_type == "FT")
+salaries_ft_usd <- subset(salaries_ft, salary_currency == "USD")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
